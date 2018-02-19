@@ -1,4 +1,10 @@
 ###################
+Proittecnologies (Installation)
+###################
+
+After cloning the repository, you must create a folder that does not include a default one and that is necessary to manage the sessions: application/sess_save_path.
+
+###################
 What is CodeIgniter
 ###################
 
