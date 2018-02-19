@@ -171,7 +171,7 @@ ga('create', 'UA-104465777-1', 'auto');
 							
 							<!-- INICIO -->
 							<li id="li_index">
-								<a href="<?php echo base_url(); ?>index"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('link_home_sub'); ?></span></a>
+								<a href="<?php echo base_url(); ?>"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('link_home_sub'); ?></span></a>
 							</li>
 							
 							<!-- NOSOTROS -->
