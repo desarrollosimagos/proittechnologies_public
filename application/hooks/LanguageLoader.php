@@ -22,12 +22,12 @@ class LanguageLoader
             $ci->lang->load('message','english');
             $ci->lang->load('header','english');
             $ci->lang->load('admin_p','english');
-            $ci->lang->load('smartcities',$siteLang);
-            $ci->lang->load('smartindustries',$siteLang);
-            $ci->lang->load('agriculture',$siteLang);
-            $ci->lang->load('energy',$siteLang);
-            $ci->lang->load('greenspaces',$siteLang);
-            $ci->lang->load('waste',$siteLang);
+            $ci->lang->load('smartcities','english');
+            $ci->lang->load('smartindustries','english');
+            $ci->lang->load('agriculture','english');
+            $ci->lang->load('energy','english');
+            $ci->lang->load('greenspaces','english');
+            $ci->lang->load('waste','english');
             $ci->lang->load('contact','english');
             $ci->lang->load('footer','english');
         }
