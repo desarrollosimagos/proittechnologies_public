@@ -201,14 +201,14 @@ ga('create', 'UA-104465777-1', 'auto');
 							<li id="li_products"><a href="#"><div><?php echo $this->lang->line('link_productos'); ?></div><span><?php echo $this->lang->line('link_productos_sub'); ?></span></a>
 								<ul>
 									<li><a href="#"><div><?php echo $this->lang->line('link_products'); ?></div></a></li>
-									<li><a href="#"><div><?php echo $this->lang->line('link_energy'); ?></div></a></li>
-									<li><a href="<?php echo base_url(); ?>products/wastecollection"><div><?php echo $this->lang->line('link_wastecollection'); ?></div></a></li>
-									<li><a href="#"><div><?php echo $this->lang->line('link_lighting'); ?></div></a></li>
-									<li><a href="#"><div><?php echo $this->lang->line('link_green'); ?></div></a></li>
-									<li><a href="#"><div><?php echo $this->lang->line('link_crop'); ?></div></a></li>								
-									<li><a href="#"><div><?php echo $this->lang->line('link_firedetection'); ?></div></a></li>
-									<li><a href="#"><div><?php echo $this->lang->line('link_citizen'); ?></div></a></li>
-									<li><a href="#"><div><?php echo $this->lang->line('link_ebusiness'); ?></div></a></li>
+									<li><a href="<?php echo base_url(); ?>products/bee2energy"><div><?php echo $this->lang->line('link_energy'); ?></div></a></li>
+									<li><a href="<?php echo base_url(); ?>products/bee2waste"><div><?php echo $this->lang->line('link_wastecollection'); ?></div></a></li>
+									<li><a href="<?php echo base_url(); ?>products/bee2lighting"><div><?php echo $this->lang->line('link_lighting'); ?></div></a></li>
+									<li><a href="<?php echo base_url(); ?>products/bee2green"><div><?php echo $this->lang->line('link_green'); ?></div></a></li>
+									<li><a href="<?php echo base_url(); ?>products/bee2crop"><div><?php echo $this->lang->line('link_crop'); ?></div></a></li>								
+									<li><a href="<?php echo base_url(); ?>products/bee2firedetection"><div><?php echo $this->lang->line('link_firedetection'); ?></div></a></li>
+									<li><a href="<?php echo base_url(); ?>products/bee2citizen"><div><?php echo $this->lang->line('link_citizen'); ?></div></a></li>
+									<li><a href="<?php echo base_url(); ?>products/cargo-e-business"><div><?php echo $this->lang->line('link_ebusiness'); ?></div></a></li>
 								</ul>
 							</li>
 							

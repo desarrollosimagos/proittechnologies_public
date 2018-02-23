@@ -70,9 +70,14 @@ $route['solutions/greenspaces'] = 'welcome/greenspaces';
 $route['solutions/agriculture'] = 'welcome/agriculture';
 
 /* Páginas de productos */
-$route['products/wastecollection'] = 'welcome/wastlecollection';
-$route['products/citizeninterface'] = 'welcome/citizeninterface';
-$route['products/cargomanagement'] = 'welcome/cargomanagement';
+$route['products/bee2energy'] = 'welcome/bee2energy';
+$route['products/bee2waste'] = 'welcome/bee2waste';
+$route['products/bee2lighting'] = 'welcome/bee2lighting';
+$route['products/bee2green'] = 'welcome/bee2green';
+$route['products/bee2crop'] = 'welcome/bee2crop';
+$route['products/bee2firedetection'] = 'welcome/bee2firedetection';
+$route['products/bee2citizen'] = 'welcome/bee2citizen';
+$route['products/cargo-e-business'] = 'welcome/cargoebusiness';
 
 /* página de contacto*/
 $route['contacts'] = 'welcome/contacto';

@@ -130,6 +130,65 @@ class Welcome extends CI_Controller {
 	}
 	
 	
+	#lists products
+	public function bee2energy()
+	{
+		$data['pagina'] = 'new/bee2energy.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
+	}
+
+	public function bee2waste()
+	{
+		$data['pagina'] = 'new/bee2waste.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
+	}
+
+	public function bee2lighting()
+	{
+		$data['pagina'] = 'new/bee2lighting.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
+	}
+
+	public function bee2green()
+	{
+		$data['pagina'] = 'new/bee2green.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
+	}
+
+	public function bee2crop()
+	{
+		$data['pagina'] = 'new/bee2crop.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
+	}
+
+	public function bee2firedetection()
+	{
+		$data['pagina'] = 'new/bee2firedetection.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
+	}
+
+	public function bee2citizen()
+	{
+		$data['pagina'] = 'new/bee2citizen.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
+	}
+
+	public function cargoebusiness()
+	{
+		$data['pagina'] = 'new/cargoebusiness.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
+	}
+
+
+
 	
 	
 	
