@@ -15,7 +15,8 @@ class LanguageLoader
             $ci->lang->load('agriculture',$siteLang);
             $ci->lang->load('energy',$siteLang);
             $ci->lang->load('greenspaces',$siteLang);
-            $ci->lang->load('waste',$siteLang);
+            $ci->lang->load('bee2energy',$siteLang);
+            $ci->lang->load('bee2waste',$siteLang);
             $ci->lang->load('contact',$siteLang);
             $ci->lang->load('footer',$siteLang);
         } else {
@@ -27,7 +28,8 @@ class LanguageLoader
             $ci->lang->load('agriculture','english');
             $ci->lang->load('energy','english');
             $ci->lang->load('greenspaces','english');
-            $ci->lang->load('waste','english');
+            $ci->lang->load('bee2energy','english');
+            $ci->lang->load('bee2waste','english');
             $ci->lang->load('contact','english');
             $ci->lang->load('footer','english');
         }
