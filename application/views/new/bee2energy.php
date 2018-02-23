@@ -36,11 +36,11 @@
 <section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/about/shutterstock_151376048.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
 	<div class="container clearfix">
 		<h1><img src="<?php echo assets_url(); ?>images/bee2energy-logo-white-600x170.png"></h1>
-		<span><?php echo $this->lang->line('bee2bee2energy_page_title1_span'); ?></span>
+		<span><?php echo $this->lang->line('bee2energy_page_title1_span'); ?></span>
 		<ol class="breadcrumb">
-			<li><a href="/index"><?php echo $this->lang->line('bee2bee2energy_page_title1_li1'); ?></a></li>
-            <li class="active"><?php echo $this->lang->line('bee2bee2energy_page_title1_li2'); ?></li>
-            <li class="active"><?php echo $this->lang->line('bee2bee2energy_page_title1_li3'); ?></li>
+			<li><a href="/index"><?php echo $this->lang->line('bee2energy_page_title1_li1'); ?></a></li>
+            <li class="active"><?php echo $this->lang->line('bee2energy_page_title1_li2'); ?></li>
+            <li class="active"><?php echo $this->lang->line('bee2energy_page_title1_li3'); ?></li>
 		</ol>
 	</div>
 </section>
