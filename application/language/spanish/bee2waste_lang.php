@@ -9,7 +9,7 @@ $lang['bee2waste_page_title1_li2'] = 'Products';
 $lang['bee2waste_page_title1_li3'] = 'bee2waste';
 
 // Sección 1
-$lang['bee2waste_heading_block0_img1'] = 'bee2waste-section1-img1';
+$lang['bee2waste_heading_block0_img1'] = 'bee2waste-section1-img1.jpg';
 $lang['bee2waste_heading_block0_p1'] = 'Compta’s BEE2WASTE is a powerful waste collection cloud based management software serving for more than 40 cities across Europe and South America that addresses all the phases of the urban cleanness processes. BEE2WASTE is capable of interacting with a wide variety of IoT/sensors and waste collection methodologies so the more efficient working methods can be implemented adapted to each city specific needs.';
 
 // Sección 2
