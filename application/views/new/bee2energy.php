@@ -543,7 +543,7 @@
 									<div class="fbox-icon">
 										<a href="#"><i class="icon-book3"></i></a>
 									</div>
-									<h3 class="lead"><?php echo $this->lang->line('bee2energy_heading_block8_title1'); ?></h3>
+									<h3 class="lead"><?php echo $this->lang->line('bee2energy_heading_block11_title1'); ?></h3>
 								</div>
 								<p class="lead">
 								<?php echo $this->lang->line('bee2energy_heading_block11_p1'); ?>
@@ -576,7 +576,7 @@
 									<div class="fbox-icon">
 										<a href="#"><i class="icon-book3"></i></a>
 									</div>
-									<h3 class="lead"><?php echo $this->lang->line('bee2energy_heading_block11_title1'); ?></h3>
+									<h3 class="lead"><?php echo $this->lang->line('bee2energy_heading_block11_title2'); ?></h3>
 								</div>
 								<p class="lead">
 								<?php echo $this->lang->line('bee2energy_heading_block11_p1'); ?>
