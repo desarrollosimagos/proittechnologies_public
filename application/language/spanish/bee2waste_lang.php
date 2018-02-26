@@ -1,92 +1,122 @@
 <?php
 // Sección de título
-$lang['waste_page_title1_h1'] = 'RECOLECCIÓN DE BASURA';
-$lang['waste_page_title1_span'] = 'ADMINISTRACIÓN';
-$lang['waste_page_title1_li1'] = 'Inicio';
-$lang['waste_page_title1_li2'] = 'Productos';
-$lang['waste_page_title1_li3'] = 'Recolección de Basura';
+$lang['bee2waste_page_title1_h1'] = 'ENERGY CONSUMPTION';
+$lang['bee2waste_page_title1_img1'] = 'section-title-background.jpg';
+$lang['bee2waste_page_title1_img2'] = 'section-title-logo.png';
+$lang['bee2waste_page_title1_span'] = 'Urban Waste Collection Management';
+$lang['bee2waste_page_title1_li1'] = 'Home';
+$lang['bee2waste_page_title1_li2'] = 'Products';
+$lang['bee2waste_page_title1_li3'] = 'bee2waste';
+
+// Sección 1
+$lang['bee2waste_heading_block0_img1'] = 'bee2waste-section1-img1';
+$lang['bee2waste_heading_block0_p1'] = 'Compta’s BEE2WASTE is a powerful waste collection cloud based management software serving for more than 40 cities across Europe and South America that addresses all the phases of the urban cleanness processes. BEE2WASTE is capable of interacting with a wide variety of IoT/sensors and waste collection methodologies so the more efficient working methods can be implemented adapted to each city specific needs.';
 
 // Sección 2
-$lang['waste_heading_block1_h1'] = 'GESTIÓN DE LA RECOLECCIÓN DE RESIDUOS SÓLIDOS URBANOS';
-$lang['waste_heading_block1_p1'] = 'De los productores de residuos hasta los destinos finales de residuos, "Bee2Waste" ofrece la solución de software más completa y completa para operar, monitorear, optimizar, controlar e informar a lo largo de todas las fases del proceso de la gestión de recolección y procesamiento de residuos.';
-$lang['waste_heading_block1_p2'] = 'Bee2Waste, ofrece en un enfoque modular que el software crezca con su negocio y está disponible tanto en versiones basadas en la nube como en premisas.';
-
+$lang['bee2waste_heading_block1_h1'] = 'Your Waste Collection Core';
+$lang['bee2waste_heading_block1_img1'] = 'bee2waste-section2-768x624.jpg';
+$lang['bee2waste_heading_block1_title1'] = 'Service Features';
+$lang['bee2waste_heading_block1_p1'] = 'Designed to be used either by Municipalities or Waste Collection Service companies, BEE2WASTE provides by the following service features:';
+$lang['bee2waste_heading_block1_li1'] = '– Operations Planning and Management';
+$lang['bee2waste_heading_block1_li2'] = '– Interaction with Vehicles, Collection Points, other Equipments & Final Waste Destinations';
+$lang['bee2waste_heading_block1_li3'] = '– Interface with Producers, Citizens & Regulators';
+$lang['bee2waste_heading_block1_li4'] = '– Data-Collection, Monitoring & Analytics';
+$lang['bee2waste_heading_block1_li5'] = '– Patterns Identification & Predictions';
+$lang['bee2waste_heading_block1_li6'] = '– Human Resources Management';
+$lang['bee2waste_heading_block1_li7'] = '– Assets Management';
+$lang['bee2waste_heading_block1_li8'] = '– Tracking, Location, Geo-Fencing';
+$lang['bee2waste_heading_block1_li9'] = '– Intelligent “Routes Planning”';
+$lang['bee2waste_heading_block1_li10'] = '– PAYT/RAYT/SMART Models Ready';
+$lang['bee2waste_heading_block1_li11'] = '– Reporting & KPI’s Monitoring';
 
 // Sección 3
-$lang['waste_heading_block2_h1'] = 'Control de las operaciones de extremo a extremo:';
-$lang['waste_heading_block2_p1'] = 'Mediante el uso de la tecnología IoT, ofrecemos una gestión basada en la nube "Waste Management"';
+$lang['bee2waste_heading_block2_h1'] = 'End-to-End Operations Control';
+$lang['bee2waste_heading_block2_title1'] = 'One Solution, a World of Applications';
+$lang['bee2waste_heading_block2_p1'] = 'BEE2WASTE Software is designed to interact with all the operational elements part of the waste collection process. From human resources scheduling (drivers and auxiliary personnel), collection assets and elements (such as collection and cleaning vehicles, containers and bins for different waste types, plastic bags, etc.), up to the waste deposits, final waste destinations and citizens.';
+$lang['bee2waste_heading_block2_img1'] = 'bee2waste-section3-768x374.jpg';
 
 // Sección 4
-$lang['waste_heading_block4_h1_1'] = 'SOFTWARE Y MÓDULOS DISPONIBLES';
-$lang['waste_heading_block4_span'] = 'Core Software & Truck Operations Management (módulo base)';
-$lang['waste_heading_block4_h5_1'] = 'Principales características disponibles:';
-$lang['waste_heading_block4_li_1_icon'] = 'Gestión de Servicios:';
-$lang['waste_heading_block4_li_2'] = '- Gestión de Residuos.';
-$lang['waste_heading_block4_li_3'] = '- Gestión de destinos finales de residuos.';
-$lang['waste_heading_block4_li_4'] = '- Gestión de órdenes de trabajo y tareas.';
-$lang['waste_heading_block4_li_5'] = '- Gestión de contratos.';
-$lang['waste_heading_block4_li_6'] = '- Módulo de facturación y facturación.';
-$lang['waste_heading_block4_li_7'] = '- Módulo de Helpdesk.';
-$lang['waste_heading_block4_li_8'] = '- L.E.R Catálogos.';
-$lang['waste_heading_block4_li_9'] = '- Sistema de Información Geográfica (SIG).';
-$lang['waste_heading_block4_li_10'] = '- Integración con sistemas ERP y CRM externos.';
-$lang['waste_heading_block4_li_11'] = '- Integración directa con "arcGIS" y "Google Earth".';
-$lang['waste_heading_block4_li_12_icon'] = 'Administración de recursos humanos:';
-$lang['waste_heading_block4_li_13'] = '- Gestión de empleados';
-$lang['waste_heading_block4_li_14'] = '- Gestión de conductores';
-$lang['waste_heading_block4_li_15'] = '- Recolección de Equipos y Programación de Turnos de Servicio.';
-$lang['waste_heading_block4_li_16_icon'] = 'Gestión de Equipos:';
-$lang['waste_heading_block4_li_17'] = '- Contenedores Tratamiento (almacenamiento, movimientos, entregas, limpieza, entre otros).';
-$lang['waste_heading_block4_li_18'] = '- Gestión de barredoras y limpiadores.';
-$lang['waste_heading_block4_li_19'] = '- Gestión del combustible.';
-$lang['waste_heading_block4_li_20_icon'] = 'Informes:';
-$lang['waste_heading_block4_li_21'] = '- Volúmenes recopilados.';
-$lang['waste_heading_block4_li_22'] = '- Rutas (ejecutadas / planificadas).';
-$lang['waste_heading_block4_li_23'] = '- Ocurrencias.';
-$lang['waste_heading_block4_li_24'] = '- Horarios de trabajo.';
-$lang['waste_heading_block4_li_25'] = '- Existencias de inventario de contenedores.';
-$lang['waste_heading_block4_li_26'] = '- Recogiendo puntos.';
-$lang['waste_heading_block4_li_27'] = '- Servicios Realizados.';
-$lang['waste_heading_block4_li_28'] = '- Ocupación de la flota.';
-$lang['waste_heading_block4_li_29'] = '- Consumo de combustible.';
-$lang['waste_heading_block4_li_30'] = '- Operaciones diarias.';
-$lang['waste_heading_block4_li_31'] = '- Operación KPI´s.';
-$lang['waste_heading_block4_li_32_icon'] = 'Operaciones de camiones:';
-$lang['waste_heading_block4_li_33'] = '- Ubicación del camión en tiempo real.';
-$lang['waste_heading_block4_li_34'] = '- Estado del camión (en movimiento / estacionado).';
-$lang['waste_heading_block4_li_35'] = '- Velocidad instantánea, media y máxima.';
-$lang['waste_heading_block4_li_36'] = '- Distancia recorrida (total y parcial).';
-$lang['waste_heading_block4_li_37'] = '- Dirección.';
-$lang['waste_heading_block4_li_38'] = '- Informes de Eficiencia (kilos recolectados / km recorridos).';
-$lang['waste_heading_block4_li_39'] = '- Los niveles de CO2 de cada colección.';
-$lang['waste_heading_block4_li_40'] = '- Tasa de ocupación.';
-$lang['waste_heading_block4_li_41'] = '- Programa de recolección.';
-$lang['waste_heading_block4_li_42'] = '- Rutas Planificación y rutas efectivas.';
-$lang['waste_heading_block4_li_43_icon'] = 'Consola de camiones y botones Panel Informes de eventos:';
-$lang['waste_heading_block4_li_44'] = '- Residuos de la Calle, Lavado de la Calle, Abandonados.';
-$lang['waste_heading_block4_li_45'] = '- Sucio, dañado, bloqueado o destruido Contenedores.';
-$lang['waste_heading_block4_li_46'] = '- Tipo de colección no diferenciada o selectiva';
-$lang['waste_heading_block4_li_47'] = '- Reprogramación automática';
-$lang['waste_heading_block4_h5_2'] = 'Equipos de hardware comunes requeridos:';
-$lang['waste_heading_block4_li_48_icon'] = 'Consola de camiones (específica de la industria o dispositivo Android).';
-$lang['waste_heading_block4_li_49_icon'] = 'Caja del panel de botones para entradas de eventos.';
-$lang['waste_heading_block4_li_50_icon'] = 'Equipo de GPS.';
-$lang['waste_heading_block4_li_51_icon'] = 'Lector de bus CAN.';
-$lang['waste_heading_block4_h1_2'] = 'MERCADOS';
-$lang['waste_heading_block4_h3_1'] = 'EMPRESAS MUNICIPALES';
-$lang['waste_heading_block4_h3_2'] = 'SERVICIOS MUNICIPALES';
-$lang['waste_heading_block4_h3_3'] = 'MUNICIPIOS';
+$lang['bee2waste_heading_block3_h1'] = 'Simple and effective';
+$lang['bee2waste_heading_block3_img1'] = 'bee2waste-section4-768x747.jpg';
+$lang['bee2waste_heading_block3_title1'] = 'Intelligent Planning of Collection Circuits';
+$lang['bee2waste_heading_block3_p1'] = 'Operators can plan the collection circuits based on real-time and historical data pattern behaviour learning.';
+$lang['bee2waste_heading_block3_p2'] = ' For each collection circuit plan, Operator can work with several variables such as:';
+$lang['bee2waste_heading_block3_li1'] = '– Date/Hour for the collection';
+$lang['bee2waste_heading_block3_li2'] = '– Area';
+$lang['bee2waste_heading_block3_li3'] = '– Types of waste to consider';
+$lang['bee2waste_heading_block3_li4'] = '– Containers to be considered by their filling level %';
+$lang['bee2waste_heading_block3_li5'] = '– Vehicles to use';
+$lang['bee2waste_heading_block3_li6'] = '– Operation Center those vehicles belong to.';
+$lang['bee2waste_heading_block3_li7'] = '– Preferred flow';
+$lang['bee2waste_heading_block3_li8'] = '– Waste possible compression rates';
+$lang['bee2waste_heading_block3_p3'] = 'BEE2WASTE will generate the collecting circuit, indicating the Optimal routes, optimal Number of vehicles needed, number of laps and other relevant variables.';
 
 // Sección 5
-$lang['waste_heading_block5_h1'] = 'MÓDULOS DISPONIBLES';
-$lang['waste_heading_block5_span'] = 'Recolección de basura.';
-$lang['waste_heading_block5_li_1'] = 'Módulo de gestión de contenedores (RFID).';
-$lang['waste_heading_block5_li_2'] = 'Módulo de sondas de llenado de contenedores.';
-$lang['waste_heading_block5_li_3'] = 'Módulo de contenedores de acceso condicionado.';
-$lang['waste_heading_block5_li_4'] = 'Módulo del sistema de pesaje de carga de camiones.';
-$lang['waste_heading_block5_li_5'] = 'Inclusión de otros Vehículos en la Plataforma.';
-$lang['waste_heading_block5_li_6'] = 'Lectura de volúmenes de combustible en tiempo real.';
-$lang['waste_heading_block5_li_7'] = 'Aplicación Bee2Waste Mobile.';
-$lang['waste_heading_block5_h3_1'] = 'Solución lista:';
-$lang['waste_heading_block5_p_1'] = 'Pagar a medida que usted tira (PAYT, también llamado medición de basura, precio unitario, precio variable o pago por uso) es un modelo de precios de uso para la eliminación de desechos sólidos municipales, donde los usuarios cobran una tasa basada en la cantidad de residuos que presentan Municipio o autoridad local.';
-$lang['waste_heading_block5_p_2'] = 'Como pares a las tendencias y regulaciones impuestas por la comunidad europea (y otros reguladores internacionales y nacionales) Compta Bee2Waste está completamente listo para funcionar bajo un principio de PAYT.';
+$lang['bee2waste_heading_block4_h1'] = 'Your Decision, Assisted';
+$lang['bee2waste_heading_block4_img1'] = 'bee2waste-section5-768x391.jpg';
+$lang['bee2waste_heading_block4_title1'] = 'Containers Volume Levels & Predictive Planning';
+$lang['bee2waste_heading_block4_p1'] = 'Real time information about the current fill level of select containers in a certain zone.';
+$lang['bee2waste_heading_block4_p2'] = 'BEE2WASTE can plan future collections shifts based on the learnings of historical data.';
+$lang['bee2waste_heading_block4_p3'] = 'Example: Plan a shift to collect all the containers that will be above 30% load in the next 12 hours.';
+
+// Sección 6
+$lang['bee2waste_heading_block5_h1'] = 'Your Assets, Fully Cataloged';
+$lang['bee2waste_heading_block5_img1'] = 'bee2waste-section6-768x332.jpg';
+$lang['bee2waste_heading_block5_title1'] = 'Containers/Bins Inventory & Operation';
+$lang['bee2waste_heading_block5_p1'] = 'Collection Points can be uploaded on the system, including all the details of the installation point (type of containers, model, types of waste, etc.)';
+$lang['bee2waste_heading_block5_p2'] = 'Information can be uploaded either manually or automatically via the Bee2Waste RFID Handheld Reader.';
+
+// Sección 7
+$lang['bee2waste_heading_block6_h1'] = 'Business Oriented Metrics';
+$lang['bee2waste_heading_block6_img1'] = 'bee2waste-section7-600x348.jpg';
+$lang['bee2waste_heading_block6_img2'] = 'bee2waste-section7-600x359.jpg';
+$lang['bee2waste_heading_block6_title1'] = 'Analytics, KPI’s and Dashboards';
+$lang['bee2waste_heading_block6_p1'] = 'BEE2WASTE provides the most commonly used performance KPI’s for Urban Waste Collection, automatically updated.';
+$lang['bee2waste_heading_block6_p2'] = 'Specific custom made KPI’s can be created:';
+$lang['bee2waste_heading_block6_li1'] = '– Collected Tons (Global, per Waste type, etc.)';
+$lang['bee2waste_heading_block6_li2'] = '– Level of Incidents';
+$lang['bee2waste_heading_block6_li3'] = '– Cost of Collection per collected Ton or per Number of inhabitants.';
+$lang['bee2waste_heading_block6_li4'] = '– Efficiency KPI’s';
+$lang['bee2waste_heading_block6_li5'] = '– Co2 Level Emissions';
+
+// Sección 8
+$lang['bee2waste_heading_block7_h1'] = 'Connected Vehicles';
+$lang['bee2waste_heading_block7_img1'] = 'bee2waste-section8-600x306.jpg';
+$lang['bee2waste_heading_block7_img2'] = 'bee2waste-section8-600x306-2.jpg';
+$lang['bee2waste_heading_block7_img3'] = 'bee2waste-section8-600x306-3.jpg';
+$lang['bee2waste_heading_block7_img4'] = 'bee2waste-section8-600x306-4.jpg';
+$lang['bee2waste_heading_block7_img5'] = 'bee2waste-section8-600x306-5.jpg';
+$lang['bee2waste_heading_block7_img6'] = 'bee2waste-section8-600x306-6.jpg';
+$lang['bee2waste_heading_block7_title1'] = 'Some Interaction Possibilities';
+$lang['bee2waste_heading_block7_li1'] = '– Tracking, Location, Geo-Fencing.';
+$lang['bee2waste_heading_block7_li2'] = '– Vehicle Consoles with “Routes-to-Follow”, “Work-orders” and other info.';
+$lang['bee2waste_heading_block7_li3'] = '– Automatic reading of Collected Containers.';
+$lang['bee2waste_heading_block7_li4'] = '– Cargo Levels Monitoring (volume, weight).';
+$lang['bee2waste_heading_block7_li5'] = '– Fuel Levels Monitoring.';
+$lang['bee2waste_heading_block7_li6'] = '– Direct input to the platform on the most common occurrences (damaged container, container missing, road-block, etc.).';
+
+// Sección 9
+$lang['bee2waste_heading_block8_h1'] = 'Connected Collection Points';
+$lang['bee2waste_heading_block8_img1'] = 'bee2waste-section9-600x306.jpg';
+$lang['bee2waste_heading_block8_img2'] = 'bee2waste-section9-600x306-2.jpg';
+$lang['bee2waste_heading_block8_img3'] = 'bee2waste-section9-600x307.jpg';
+$lang['bee2waste_heading_block8_title1'] = 'Some Interaction Possibilities';
+$lang['bee2waste_heading_block8_p1'] = 'BEE2ENERGY is ready to interact with a wide variety of devices and equipments, supporting various communication technologies and protocols.';
+$lang['bee2waste_heading_block8_li1'] = '– Collection Points Geo-Referencing, Geo-Fencing';
+$lang['bee2waste_heading_block8_li2'] = '– Semi-Automated Containers Inventory';
+$lang['bee2waste_heading_block8_li3'] = '– Filling Levels Reading';
+$lang['bee2waste_heading_block8_li4'] = '– Temperature Monitoring';
+$lang['bee2waste_heading_block8_li5'] = '– “Conditioned Access Container Zones” implementation.';
+
+// Sección 10
+$lang['bee2waste_heading_block9_h1'] = 'More features';
+$lang['bee2waste_heading_block9_title1'] = 'Public or Private Cloud';
+$lang['bee2waste_heading_block9_title2'] = 'Integration with External Systems';
+$lang['bee2waste_heading_block9_title3'] = 'Device Access Technologies';
+$lang['bee2waste_heading_block9_p1'] = 'BEE2WASTE is provided in a “Software as a Service” business model ajusted to your business needs. Service can be provided either from Public or Private Cloud deployment types.';
+$lang['bee2waste_heading_block9_p2'] = 'Data inputs and outputs can be established with other systems part of the waste collection process. Via API integration, data exchange can be setup with existing ERP’s, CRM’s, Reporting or other operational software elements.';
+$lang['bee2waste_heading_block9_p3'] = 'BEE2WASTE is capable of interacting with a multitude of devices and sensors independently of the communication technology in use. From M2M up to IoT narrowband technologies, such as LoRa or SigFox, BEE2WASTE will assure the best flexibility as per each device/sensor purpose.';
+
+// Sección 11
+$lang['bee2waste_heading_block10_h1'] = 'Impacts & Benefits';
+$lang['bee2waste_heading_block10_img1'] = 'bee2waste-section11-1024x311.jpg';

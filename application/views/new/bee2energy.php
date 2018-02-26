@@ -54,7 +54,7 @@
 
 				<div class="col-lg-6">
 					<div style="position: relative; margin-bottom: -60px;" class="ohidden" >
-						<img src="<?php echo assets_url(); ?>images/bee2energy-software-2.jpg" >
+						<img src="<?php echo assets_url(); ?>images/bee2energy/bee2energy-software-2.jpg" >
 					</div>
 				</div>
 
