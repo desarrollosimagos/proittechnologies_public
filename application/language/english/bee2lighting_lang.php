@@ -14,7 +14,7 @@ $lang['bee2lighting_heading_block0_p1'] = 'BEE2LIGHTING is a Street Lighting Man
 $lang['bee2lighting_heading_block0_p2'] = 'Capable to operate the various types of luminaires, BEE2LIGHTING offers “CABINET LEVEL” and “LUMINAIRE LEVEL” management models supporting the various communication protocols for connectivity such as M2M, LoRa, Sigfox, WiFi and others.';
 
 // Sección 2
-$lang['bee2lighting_heading_block1_h1'] = 'Your Waste Collection Core';
+$lang['bee2lighting_heading_block1_h1'] = 'Deployment Models: Adjusted to your City Reality';
 $lang['bee2lighting_heading_block1_p1'] = 'Need to consider areas of your city where you have not yet implemented smart luminaires? Want to avoid having different systems for managing luminaires of different types and connected in different ways?';
 $lang['bee2lighting_heading_block1_p2'] = 'BEE2Lighting allows simultaneous operation with “connected smart-luminaires” and “legacy, non-smart luminaires” providing you the highest levels of comprehensiveness and flexibility in the implementation of your intelligent street lighting project.';
 $lang['bee2lighting_heading_block1_tab1'] = 'Smart Luminaires Management';
