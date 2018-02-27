@@ -30,13 +30,15 @@ $lang['bee2citizen_heading_block2_p1'] = 'Since it isn’t only limited to your 
 $lang['bee2citizen_heading_block2_p2'] = 'You can explore informations in detail and directly share from your smartphone through the main social networks or wherever you want. Sharing is the new power!';
 $lang['bee2citizen_heading_block2_p3'] = 'Availability of various services, which accelerates the entire process of interaction with your Municipality. You can request a local service from your smartphone.';
 $lang['bee2citizen_heading_block2_p4'] = 'It will always notify with push functionality. Whenever there is any relevant information update by the municipality, you will be prompted with a push message.';
-$lang['bee2citizen_heading_block2_img1'] = 'bee2citizen-section3-img1.png';
-$lang['bee2citizen_heading_block2_img2'] = 'bee2citizen-section3-img1.png';
-$lang['bee2citizen_heading_block2_img3'] = 'bee2citizen-section3-img1.png';
-$lang['bee2citizen_heading_block2_img4'] = 'bee2citizen-section3-img1.png';
+$lang['bee2citizen_heading_block2_img1'] = 'bee2citizen-section3-img1.jpg';
+$lang['bee2citizen_heading_block2_img2'] = 'bee2citizen-section3-img2.jpg';
+$lang['bee2citizen_heading_block2_img3'] = 'bee2citizen-section3-img3.jpg';
+$lang['bee2citizen_heading_block2_img4'] = 'bee2citizen-section3-img4.jpg';
 
 // Sección 4
 $lang['bee2citizen_heading_block3_h1'] = 'Main features';
+$lang['bee2citizen_heading_block3_img1'] = 'bee2citizen-section4-img1.jpg';
+$lang['bee2citizen_heading_block3_img1'] = 'bee2citizen-section4-img1.jpg';
 $lang['bee2citizen_heading_block3_img1'] = 'bee2citizen-section4-img1.jpg';
 $lang['bee2citizen_heading_block3_title1'] = 'Referendum';
 $lang['bee2citizen_heading_block3_title2'] = 'Budgeting';
@@ -57,10 +59,9 @@ $lang['bee2citizen_heading_block3_p8'] = 'Find out and avoid all issues that may
 
 // Sección 5
 $lang['bee2citizen_heading_block4_h1'] = 'Unique Backoffice Management Tool';
-$lang['bee2citizen_heading_block4_img1'] = 'bee2citizen-section5-img1.jpg';
+$lang['bee2citizen_heading_block4_img1'] = 'bee2citizen-section5-img1.png';
 $lang['bee2citizen_heading_block4_img2'] = 'bee2citizen-section5-img2.jpg';
-$lang['bee2citizen_heading_block4_img3'] = 'bee2citizen-section5-img2.jpg';
-$lang['bee2citizen_heading_block4_title1'] = 'Analytics & DashBoards';
+$lang['bee2citizen_heading_block4_img3'] = 'bee2citizen-section5-img3.jpg';
 $lang['bee2citizen_heading_block4_p1'] = 'A powerful tool for municipalities to easily manage their relationship with citizens';
 
 // Sección 6
