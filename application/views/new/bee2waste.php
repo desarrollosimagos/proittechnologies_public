@@ -30,6 +30,10 @@
 	ul {
 		padding-bottom: 0px !important;
 	}
+
+	section {
+		background-color:#FFFFFF !important;
+	}
 </style>
 
 <!-- Page Title ============================================= -->

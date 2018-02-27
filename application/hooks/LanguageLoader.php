@@ -21,6 +21,7 @@ class LanguageLoader
             $ci->lang->load('bee2green',$siteLang);
             $ci->lang->load('bee2crop',$siteLang);
             $ci->lang->load('bee2citizen',$siteLang);
+            $ci->lang->load('cargoebusiness',$siteLang);
             $ci->lang->load('contact',$siteLang);
             $ci->lang->load('footer',$siteLang);
         } else {
@@ -38,6 +39,7 @@ class LanguageLoader
             $ci->lang->load('bee2green','english');
             $ci->lang->load('bee2crop','english');
             $ci->lang->load('bee2citizen','english');
+            $ci->lang->load('cargoebusiness','english');
             $ci->lang->load('contact','english');
             $ci->lang->load('footer','english');
         }
