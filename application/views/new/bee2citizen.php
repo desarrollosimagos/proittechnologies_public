@@ -33,14 +33,15 @@
 </style>
 
 <!-- Page Title ============================================= -->
-<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/about/shutterstock_151376048.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
+<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/about/shutterstock_151376048.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3" data-img-width="703">
 	<div class="container clearfix">
-		<h1><?php echo $this->lang->line('energy_page_title1_h1'); ?></h1>
-		<span><?php echo $this->lang->line('energy_page_title1_span'); ?></span>
+		<h1><img src="<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_page_title1_img2'); ?>"></h1>
+		<span><?php echo $this->lang->line('bee2citizen_page_title1_span1'); ?></span>
+		<span><?php echo $this->lang->line('bee2citizen_page_title1_span2'); ?></span>
 		<ol class="breadcrumb">
-			<li><a href="/index"><?php echo $this->lang->line('energy_page_title1_li1'); ?></a></li>
-            <li class="active"><?php echo $this->lang->line('energy_page_title1_li2'); ?></li>
-            <li class="active"><?php echo $this->lang->line('energy_page_title1_li3'); ?></li>
+			<li><a href="/index"><?php echo $this->lang->line('bee2citizen_page_title1_li1'); ?></a></li>
+            <li class="active"><?php echo $this->lang->line('bee2citizen_page_title1_li2'); ?></li>
+            <li class="active"><?php echo $this->lang->line('bee2citizen_page_title1_li3'); ?></li>
 		</ol>
 	</div>
 </section>
@@ -52,91 +53,29 @@
 <!--- ######################### init ##################### --> 	
 		<div class="container clearfix" style="margin-top: -100px;">
 			<div class="row clearfix">
-				<div class="col-lg-12">
-					<div class="heading-block">
-						<h1><?php echo $this->lang->line('energy_heading_block1_h1'); ?></h1>
+				
+				<div class="heading-block title-center">
+					<h1><?php echo $this->lang->line('bee2citizen_heading_block0_h1'); ?></h1>
+				</div>
+				
+				<div class="col-lg-6">
+					<div style="position: relative; margin-bottom: -60px;" class="ohidden" >
+						<img src="<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_heading_block0_img1'); ?>" >
 					</div>
-					
+				</div>
+
+				<div class="col-lg-6">
 					<p class="lead">
-                        <?php echo $this->lang->line('energy_heading_block1_p1'); ?>
-                    </p>
+					<?php echo $this->lang->line('bee2citizen_heading_block0_p1'); ?>
+					</p>
+					<p class="lead">
+					<?php echo $this->lang->line('bee2citizen_heading_block0_p2'); ?>
+					</p>
+					<p class="lead">
+					<?php echo $this->lang->line('bee2citizen_heading_block0_p3'); ?>
+					</p>
 				</div>
-			</div>
-        </div>
-        
-        <div class="line"></div>
-        
-		<div class="container clearfix">
-			<div class="row clearfix">
-				<div class="col-lg-1">
-				</div>
-				<div class="col-lg-10">
-					<div class="heading-block title-center">
-						<h1><?php echo $this->lang->line('energy_heading_block2_h1'); ?></h1>
-					</div>
-					<div class="col-lg-12 text-center">
-						<div class="ohidden" data-height-lg="450" data-height-md="567" data-height-sm="500" data-height-xs="287" data-height-xxs="183">
-							<img src="<?php echo assets_url(); ?>images/energy-image-2.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
-							<img src="<?php echo assets_url(); ?>images/energy-image-1.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad">
-							<img src="<?php echo assets_url(); ?>images/energy-image-3.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="iPad">
-						</div>
-					</div>
-					<br><br><br>
-					<p class="lead title-center">
-                        <?php echo $this->lang->line('energy_heading_block2_p1'); ?>
-                    </p>
-				</div>
-			</div>
-        </div>
-        
-        <div class="line"></div>
-        
-		<div class="container clearfix">
-			<div class="row clearfix">
-				<div class="col-lg-12">
-					<div class="heading-block title-center">
-						<h1><?php echo $this->lang->line('energy_heading_block3_h1'); ?></h1>
-					</div>
-					<br>
-					<p class="lead title-center">
-                        <?php echo $this->lang->line('energy_heading_block3_p1'); ?>
-                    </p>
-				</div>
-				<!--<div class="col-lg-12">
-					<div class="table-responsive table_energys1">
-						<table class="table" id="table_energys1">
-							<tbody>
-								<tr>
-									<td>
-										<div class="text-center">
-											<img src="<?php echo base_url(); ?>assets/images/bee2-energy.png">
-										</div>
-									</td>
-									<td>
-										<div class="text-center">
-											<img src="<?php echo base_url(); ?>assets/images/bee2-lighting.png">
-										</div>
-									</td>
-									<td>
-										<div class="text-center">
-											<img src="<?php echo base_url(); ?>assets/images/bee2-gas.png">
-										</div>
-									</td>
-									<td>
-										<div class="text-center">
-											<img src="<?php echo base_url(); ?>assets/images/bee2-water.png">
-										</div>
-									</td>
-									<td>
-										<div class="text-center">
-											<img src="<?php echo base_url(); ?>assets/images/bee2-oxygen.png">
-										</div>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>-->
+				
 			</div>
         </div>
         
@@ -144,178 +83,318 @@
         
 		<div class="container clearfix nobottommargin">
 			<div class="row clearfix nobottommargin">
+				
+				<div class="heading-block title-center">
+					<h1><?php echo $this->lang->line('bee2citizen_heading_block1_h1'); ?></h1>
+				</div>
+				
 				<div class="col-lg-12">
-					<div class="table-responsive table_energys2">
-						<table class="table" id="table_energys2">
-							<tbody>
-								<tr>
-									<td>
-										<div class="text-center">
-											<img src="<?php echo base_url(); ?>assets/images/bee2-51.png">
-										</div>
-									</td>
-									<td>
-										<div class="text-center">
-											<img src="<?php echo base_url(); ?>assets/images/bee2-lighting-bw.png">
-										</div>
-									</td>
-									<td>
-										<div class="text-center">
-											<img src="<?php echo base_url(); ?>assets/images/bee2-gas-bw.png">
-										</div>
-									</td>
-									<td>
-										<div class="text-center">
-											<img src="<?php echo base_url(); ?>assets/images/bee2-water-bw.png">
-										</div>
-									</td>
-									<td>
-										<div class="text-center">
-											<img src="<?php echo base_url(); ?>assets/images/bee2-oxygen-bw.png">
-										</div>
-									</td>
-								</tr>
-							</tbody>
-						</table>
+					<div class="entry-image">
+						<div class="fslider" data-arrows="false" data-lightbox="gallery">
+							<div class="flexslider">
+								<div class="slider-wrap">
+									<div class="slide">
+										<img src="<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_heading_block1_img1'); ?>" >
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-				<!--<div class="col-lg-12">
-					<div class="ohidden" data-height-lg="426" data-height-md="567" data-height-sm="470" data-height-xs="287" data-height-xxs="183">
-						<img src="<?php echo assets_url(); ?>images/smartindustries/energysoftware.jpg" data-animate="fadeInUp" data-delay="100" alt="">
-					</div>
-				</div>-->
-				<div class="col-lg-1">
-				</div>
-				<div class="col-lg-10 title-center nobottommargin" style="padding-bottom:0px;">
-					<div class="ohidden" data-height-lg="400" data-height-md="500" data-height-sm="420" data-height-xs="287" data-height-xxs="183">
-						<img src="<?php echo assets_url(); ?>images/energy2-image-2.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
-						<img src="<?php echo assets_url(); ?>images/energy2-image-1.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad">
-						<img src="<?php echo assets_url(); ?>images/energy2-image-3.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="iPad">
-					</div>
-				</div>
-				<div class="col-lg-1">
-				</div>
-			</div>
-        </div>
-        
-		<div class="container clearfix">
-			<div class="row clearfix">
+				
 				<div class="col-lg-12">
-					<div class="heading-block title-center">
-						<h1><?php echo $this->lang->line('energy_heading_block4_h1'); ?></h1>
-					</div>
+					<p class="lead">
+					<?php echo $this->lang->line('bee2citizen_heading_block1_p1'); ?>
+					</p>
 				</div>
-				<div class="col-lg-12">
-					<div class="table-responsive">
-						<table class="table" id="table_areas">
-							<tbody>
-								<tr>
-									<td>
-										<div class="feature-box fbox-center fbox-plain">
-											<div class="fbox-icon">
-												<img src="<?php echo assets_url(); ?>images/energy_consumption_management_icon1.png">
-											</div>
-											<h3 style="font-size:10px;color:#4182B2;"><?php echo $this->lang->line('energy_heading_block4_h3_1'); ?></h3>
-										</div>
-									</td>
-									<td>
-										<div class="feature-box fbox-center fbox-plain">
-											<div class="fbox-icon">
-												<img src="<?php echo assets_url(); ?>images/energy_consumption_management_icon2.png">
-											</div>
-											<h3 style="font-size:10px;color:#4182B2;"><?php echo $this->lang->line('energy_heading_block4_h3_2'); ?></h3>
-										</div>
-									</td>
-									<td>
-										<div class="feature-box fbox-center fbox-plain">
-											<div class="fbox-icon">
-												<img src="<?php echo assets_url(); ?>images/energy_consumption_management_icon3.png">
-											</div>
-											<h3 style="font-size:10px;color:#4182B2;"><?php echo $this->lang->line('energy_heading_block4_h3_3'); ?></h3>
-										</div>
-									</td>
-									<td>
-										<div class="feature-box fbox-center fbox-plain">
-											<div class="fbox-icon">
-												<img src="<?php echo assets_url(); ?>images/energy_consumption_management_icon4.png">
-											</div>
-											<h3 style="font-size:10px;color:#4182B2;"><?php echo $this->lang->line('energy_heading_block4_h3_4'); ?></h3>
-										</div>
-									</td>
-									<td>
-										<div class="feature-box fbox-center fbox-plain">
-											<div class="fbox-icon">
-												<img src="<?php echo assets_url(); ?>images/energy_consumption_management_icon5.png">
-											</div>
-											<h3 style="font-size:10px;color:#4182B2;"><?php echo $this->lang->line('energy_heading_block4_h3_5'); ?></h3>
-										</div>
-									</td>
-									<td>
-										<div class="feature-box fbox-center fbox-plain">
-											<div class="fbox-icon">
-												<img src="<?php echo assets_url(); ?>images/energy_consumption_management_icon6.png">
-											</div>
-											<h3 style="font-size:10px;color:#4182B2;"><?php echo $this->lang->line('energy_heading_block4_h3_6'); ?></h3>
-										</div>
-									</td>
-									<td>
-										<div class="feature-box fbox-center fbox-plain">
-											<div class="fbox-icon">
-												<img src="<?php echo assets_url(); ?>images/energy_consumption_management_icon7.png">
-											</div>
-											<h3 style="font-size:10px;color:#4182B2;"><?php echo $this->lang->line('energy_heading_block4_h3_7'); ?></h3>
-										</div>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
+				
 			</div>
         </div>
         
         <div class="line"></div>
         
-		<div class="container clearfix">
-			<div class="row clearfix">
+		<div class="container clearfix nobottommargin">
+			<div class="row clearfix nobottommargin">
+				
 				<div class="col-lg-12">
-					<div class="col_half">
-						<h4><?php echo $this->lang->line('energy_heading_block5_h4_1'); ?></h4>
-						<ul class="iconlist iconlist-large iconlist-color">
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_1'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_2'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_3'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_4'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_5'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_6'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_7'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_8'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_9'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_10'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_11'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_12'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_13'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_14'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_15'); ?></li>
-						</ul>
+					<div class="col-md-6">
+						<div class="heading-block title-center">
+							<h1><?php echo $this->lang->line('bee2citizen_heading_block2_h1_1'); ?></h1>
+						</div>
+						<div class="entry-image">
+							<div class="fslider" data-arrows="false" data-lightbox="gallery">
+								<div class="flexslider">
+									<div class="slider-wrap">
+										<div class="slide">
+											<img src="<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_heading_block2_img1'); ?>" >
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="lead">
+						<?php echo $this->lang->line('bee2citizen_heading_block2_p1'); ?>
+						</p>
 					</div>
-
-					<div class="col_half col_last">
-						<h4><?php echo $this->lang->line('energy_heading_block5_h4_2'); ?></h4>
-						<ul class="iconlist iconlist-large iconlist-color">
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_16'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_17'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_18'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_19'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_20'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_21'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_22'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_23'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_24'); ?></li>
-							<li><i class="icon-ok-sign"></i> <?php echo $this->lang->line('energy_heading_block5_li_25'); ?></li>
-						</ul>
+					<div class="col-md-6">
+						<div class="heading-block title-center">
+							<h1><?php echo $this->lang->line('bee2citizen_heading_block2_h1_2'); ?></h1>
+						</div>
+						<div class="entry-image">
+							<div class="fslider" data-arrows="false" data-lightbox="gallery">
+								<div class="flexslider">
+									<div class="slider-wrap">
+										<div class="slide">
+											<img src="<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_heading_block2_img2'); ?>" >
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="lead">
+						<?php echo $this->lang->line('bee2citizen_heading_block2_p2'); ?>
+						</p>
 					</div>
 				</div>
+				
+				<div class="col-lg-12">
+					<div class="col-md-6">
+						<div class="heading-block title-center">
+							<h1><?php echo $this->lang->line('bee2citizen_heading_block2_h1_3'); ?></h1>
+						</div>
+						<div class="entry-image">
+							<div class="fslider" data-arrows="false" data-lightbox="gallery">
+								<div class="flexslider">
+									<div class="slider-wrap">
+										<div class="slide">
+											<img src="<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_heading_block2_img3'); ?>" >
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="lead">
+						<?php echo $this->lang->line('bee2citizen_heading_block2_p3'); ?>
+						</p>
+					</div>
+					<div class="col-md-6">
+						<div class="heading-block title-center">
+							<h1><?php echo $this->lang->line('bee2citizen_heading_block2_h1_4'); ?></h1>
+						</div>
+						<div class="entry-image">
+							<div class="fslider" data-arrows="false" data-lightbox="gallery">
+								<div class="flexslider">
+									<div class="slider-wrap">
+										<div class="slide">
+											<img src="<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_heading_block2_img4'); ?>" >
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="lead">
+						<?php echo $this->lang->line('bee2citizen_heading_block2_p4'); ?>
+						</p>
+					</div>
+				</div>
+				
+			</div>
+        </div>
+        
+        <div class="line"></div>
+        
+		<div class="container clearfix nobottommargin">
+			<div class="row clearfix nobottommargin">
+				
+				<div class="col-lg-12">
+					<div class="heading-block title-center">
+						<h1><?php echo $this->lang->line('bee2citizen_heading_block3_h1'); ?></h1>
+					</div>
+					<div class="col-md-4">
+						
+					</div>
+					<div class="col-md-4">
+						<div class="entry-image">
+							<div class="fslider" data-arrows="false" data-lightbox="gallery">
+								<div class="flexslider">
+									<div class="slider-wrap">
+										<div class="slide">
+											<img src="<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_heading_block3_img1'); ?>" >
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						
+					</div>
+				</div>
+				
+				<div class="col-lg-12">
+					
+					<div class="col-md-6">
+						
+						<div class="feature-box fbox-small fbox-plain fbox-light">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-book3"></i></a>
+							</div>
+							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title1'); ?></h3>
+						</div>
+						
+						<p class="lead">
+						<?php echo $this->lang->line('bee2citizen_heading_block3_p1'); ?>
+						</p>
+						
+						<div class="feature-box fbox-small fbox-plain fbox-light">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-book3"></i></a>
+							</div>
+							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title2'); ?></h3>
+						</div>
+						
+						<p class="lead">
+						<?php echo $this->lang->line('bee2citizen_heading_block3_p2'); ?>
+						</p>
+						
+						<div class="feature-box fbox-small fbox-plain fbox-light">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-book3"></i></a>
+							</div>
+							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title3'); ?></h3>
+						</div>
+						
+						<p class="lead">
+						<?php echo $this->lang->line('bee2citizen_heading_block3_p3'); ?>
+						</p>
+						
+						<div class="feature-box fbox-small fbox-plain fbox-light">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-book3"></i></a>
+							</div>
+							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title4'); ?></h3>
+						</div>
+						
+						<p class="lead">
+						<?php echo $this->lang->line('bee2citizen_heading_block3_p4'); ?>
+						</p>
+						
+					</div>
+					
+					<div class="col-md-6">
+						
+						<div class="feature-box fbox-small fbox-plain fbox-light">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-book3"></i></a>
+							</div>
+							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title5'); ?></h3>
+						</div>
+						
+						<p class="lead">
+						<?php echo $this->lang->line('bee2citizen_heading_block3_p5'); ?>
+						</p>
+						
+						<div class="feature-box fbox-small fbox-plain fbox-light">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-book3"></i></a>
+							</div>
+							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title6'); ?></h3>
+						</div>
+						
+						<p class="lead">
+						<?php echo $this->lang->line('bee2citizen_heading_block3_p6'); ?>
+						</p>
+						
+						<div class="feature-box fbox-small fbox-plain fbox-light">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-book3"></i></a>
+							</div>
+							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title7'); ?></h3>
+						</div>
+						
+						<p class="lead">
+						<?php echo $this->lang->line('bee2citizen_heading_block3_p7'); ?>
+						</p>
+						
+						<div class="feature-box fbox-small fbox-plain fbox-light">
+							<div class="fbox-icon">
+								<a href="#"><i class="icon-book3"></i></a>
+							</div>
+							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title8'); ?></h3>
+						</div>
+						
+						<p class="lead">
+						<?php echo $this->lang->line('bee2citizen_heading_block3_p8'); ?>
+						</p>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+        </div>
+        
+        <div class="line"></div>
+        
+		<div class="container clearfix nobottommargin">
+			<div class="row clearfix nobottommargin">
+				
+				<div class="heading-block title-center">
+					<h1><?php echo $this->lang->line('bee2citizen_heading_block4_h1'); ?></h1>
+				</div>
+				
+				<div class="col-lg-6">
+					<div class="entry-image">
+						<div class="fslider" data-arrows="false" data-lightbox="gallery">
+							<div class="flexslider">
+								<div class="slider-wrap">
+									<div class="slide">
+										<img src="<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_heading_block4_img1'); ?>" >
+									</div>
+									<div class="slide">
+										<img src="<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_heading_block4_img2'); ?>" >
+									</div>
+									<div class="slide">
+										<img src="<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_heading_block4_img3'); ?>" >
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-6">
+					<p class="lead text-center" style="font-size:30px;">
+					<?php echo $this->lang->line('bee2citizen_heading_block4_p1'); ?>
+					</p>
+				</div>
+				
+			</div>
+        </div>
+        
+        <div class="line"></div>
+        
+		<div class="container clearfix nobottommargin">
+			<div class="row clearfix nobottommargin">
+				
+				<div class="heading-block title-center">
+					<h1><?php echo $this->lang->line('bee2citizen_heading_block5_h1'); ?></h1>
+				</div>
+				
+				<div class="col-lg-12">
+					<div class="entry-image">
+						<div class="fslider" data-arrows="false" data-lightbox="gallery">
+							<div class="flexslider">
+								<div class="slider-wrap">
+									<div class="slide">
+										<img src="<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_heading_block5_img1'); ?>" >
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
 			</div>
         </div>
         
