@@ -13,22 +13,28 @@ $lang['smartcities_page_title2_p'] = 'Cities are more complex, multidisciplinary
 $lang['smartcities_parallax_video'] = 'INNOVATE TODAY YOUR CITY!';
 
 // Sección 4
-$lang['smartcities_section_features_h2'] = 'A 360º INTEGRATED VIEW FOR THE CITY MANAGEMENT IS POSSIBLE';
-$lang['smartcities_section_features_span1'] = 'PROIT Technologies & Compta Emerging Business provide unique solutions for a city manager to improve its efficiency and savings through Measuring, Control and Optimization.';
-$lang['smartcities_section_features_span2'] = 'We are here to deliver you a state-of-the-art solution without having to worry about its integration and implementation, delivering you the information and needed control. Due to its agnostic nature, our applications were built to run on top of different platforms (with successful implementation projects with IBM Watson and Cisco as example), using all types of devices, network, storage (Cloud, Private or Hybrid) and data processing.';
+$lang['smartcities_heading_block3_h1'] = 'Multiple City Services. Same Interface.';
+$lang['smartcities_heading_block3_img1'] = 'smartcities-section4-img1.jpg';
+$lang['smartcities_heading_block3_title1'] = 'Service Modules & Aggregation Layer';
+$lang['smartcities_heading_block3_p1'] = 'Compta Smart Cities Services offer is comprised by:';
+$lang['smartcities_heading_block3_li1'] = '– Energy Management for Public Buildings';
+$lang['smartcities_heading_block3_li2'] = '– Street Lighting Management';
+$lang['smartcities_heading_block3_li3'] = '– Urban Waste Collection Management';
+$lang['smartcities_heading_block3_li4'] = '– Green Spaces Management';
+$lang['smartcities_heading_block3_li5'] = '– Forest Fire Detection';
+$lang['smartcities_heading_block3_li6'] = '– Digital Citizenship';
+$lang['smartcities_heading_block3_p2'] = 'Software modules can be acquired independently (modular approach) allowing cities to “grow as they need”, adjusted to their reality and available budgets.';
+$lang['smartcities_heading_block3_p3'] = 'All modules share a common BEE2 Verticals Aggregation Layer that amongst other advantages, guarantees each city a unique database, a sole login entry point for all the installed services with single sign-on, unified analytics and reporting plus, the same “look and feel” interface across all the applications.';
+$lang['smartcities_heading_block3_p4'] = 'Further to the operational and financial benefits inherent to this model, this approach is a real enabler of the “holistic approach” that allow cities to get the 360 degree integrated view on the performance and efficiency levels of the IoT services deployed.';
 
 // Sección 5 (Tabla)
-$lang['smartcities_section_features_h2'] = 'MODULES, APPLICABILITY & IMPACTS';
-$lang['smartcities_section_features_span'] = 'for Sustainability and Efficiency Goals';
+$lang['smartcities_section_features_h3'] = 'Savings & Efficiency Improvements';
+$lang['smartcities_section_features_span'] = 'Taken from the historical record of implementations in more than 40 cities, Compta Smart City Modules have been helping cities to achieve the following average results:';
 $lang['smartcities_table_th1'] = 'Solution Modules';
 $lang['smartcities_table_th2'] = 'Featured Products';
 $lang['smartcities_table_th3'] = 'City Areas of Applicability';
 $lang['smartcities_table_th4'] = 'Energy Savings';
 $lang['smartcities_table_th5'] = 'Operational Savings';
-$lang['smartcities_table_tr1_1'] = 'Energy Consumption <br>Management';
-$lang['smartcities_table_tr2_1'] = 'Green Spaces <br>Management';
-$lang['smartcities_table_tr3_1'] = 'Waste Collection <br>Management';
-$lang['smartcities_table_tr4_1'] = 'City Fleet <br>Management';
 $lang['smartcities_table_tr1_3_1'] = 'Public Lighting';
 $lang['smartcities_table_tr1_3_2'] = 'Public Buildings';
 $lang['smartcities_table_tr1_3_3'] = 'Schools';
@@ -51,4 +57,4 @@ $lang['smartcities_table_tr4_3_4'] = 'Repair and Maintenance';
 
 // Sección 6
 $lang['smartcities_heading_block_span'] = 'COMPTA SMARTCITIES';
-$lang['smartcities_heading_block_h3'] = 'Intelligent Solutions for Demanding Cities';
+$lang['smartcities_heading_block_h4'] = 'Intelligent Solutions for Demanding Cities';
