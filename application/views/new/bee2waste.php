@@ -88,7 +88,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2waste_heading_block1_title1'); ?></h3>
 					</div>
@@ -126,7 +126,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2waste_heading_block2_title1'); ?></h3>
 					</div>
@@ -158,7 +158,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2waste_heading_block3_title1'); ?></h3>
 					</div>
@@ -198,7 +198,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2waste_heading_block4_title1'); ?></h3>
 					</div>
@@ -236,7 +236,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2waste_heading_block5_title1'); ?></h3>
 					</div>
@@ -263,7 +263,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2waste_heading_block6_title1'); ?></h3>
 					</div>
@@ -343,7 +343,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2waste_heading_block7_title1'); ?></h3>
 					</div>
@@ -372,7 +372,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2waste_heading_block8_title1'); ?></h3>
 					</div>
@@ -420,7 +420,7 @@
 				<div class="col-lg-4">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2waste_heading_block9_title1'); ?></h3>
 					</div>
@@ -432,7 +432,7 @@
 				<div class="col-lg-4">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2waste_heading_block9_title2'); ?></h3>
 					</div>
@@ -444,7 +444,7 @@
 				<div class="col-lg-4">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2waste_heading_block9_title3'); ?></h3>
 					</div>
