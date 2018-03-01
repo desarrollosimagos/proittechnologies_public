@@ -13,9 +13,19 @@ $lang['smartcities_page_title2_p'] = 'As cidades são sistemas mais complexos, m
 $lang['smartcities_parallax_video'] = 'INOVAR SUA CIDADE HOJE!';
 
 // Sección 4
-$lang['smartcities_section_features_h2'] = 'É POSSÍVEL VISTA INTEGRADA DE 360º PARA A GESTÃO DA CIDADE';
-$lang['smartcities_section_features_span1'] = 'A PROIT Technologies & Compta Emerging Business oferecem soluções únicas para um gerente da cidade para melhorar sua eficiência e economia através da Medição, Controle e Otimização.';
-$lang['smartcities_section_features_span2'] = 'Estamos aqui para oferecer-lhe uma solução de última geração sem ter que se preocupar com sua integração e implementação, oferecendo-lhe a informação e o controle necessário. Devido à sua natureza agnóstica, nossos aplicativos foram criados para rodar em diferentes plataformas (com projetos de implementação bem-sucedidos com IBM Watson e Cisco como exemplo), usando todos os tipos de dispositivos, rede, armazenamento (Cloud, Private ou Hybrid) e processamento de dados.';
+$lang['smartcities_heading_block3_h1'] = 'Multiple City Services. Same Interface.';
+$lang['smartcities_heading_block3_img1'] = 'smartcities-section4-img1.jpg';
+$lang['smartcities_heading_block3_title1'] = 'Service Modules & Aggregation Layer';
+$lang['smartcities_heading_block3_p1'] = 'Compta Smart Cities Services offer is comprised by:';
+$lang['smartcities_heading_block3_li1'] = '– Energy Management for Public Buildings';
+$lang['smartcities_heading_block3_li2'] = '– Street Lighting Management';
+$lang['smartcities_heading_block3_li3'] = '– Urban Waste Collection Management';
+$lang['smartcities_heading_block3_li4'] = '– Green Spaces Management';
+$lang['smartcities_heading_block3_li5'] = '– Forest Fire Detection';
+$lang['smartcities_heading_block3_li6'] = '– Digital Citizenship';
+$lang['smartcities_heading_block3_p2'] = 'Software modules can be acquired independently (modular approach) allowing cities to “grow as they need”, adjusted to their reality and available budgets.';
+$lang['smartcities_heading_block3_p3'] = 'All modules share a common BEE2 Verticals Aggregation Layer that amongst other advantages, guarantees each city a unique database, a sole login entry point for all the installed services with single sign-on, unified analytics and reporting plus, the same “look and feel” interface across all the applications.';
+$lang['smartcities_heading_block3_p4'] = 'Further to the operational and financial benefits inherent to this model, this approach is a real enabler of the “holistic approach” that allow cities to get the 360 degree integrated view on the performance and efficiency levels of the IoT services deployed.';
 
 // Sección 5 (Tabla)
 $lang['smartcities_section_features_h2'] = 'MÓDULOS, APLICABILIDADE E IMPACTOS';
@@ -25,10 +35,6 @@ $lang['smartcities_table_th2'] = 'Produtos em destaque';
 $lang['smartcities_table_th3'] = 'Áreas de aplicação da cidade';
 $lang['smartcities_table_th4'] = 'Poupança de energia';
 $lang['smartcities_table_th5'] = 'Poupança operacional';
-$lang['smartcities_table_tr1_1'] = 'Gestão de <br>Consumo de Energia';
-$lang['smartcities_table_tr2_1'] = 'Gerenciamento de <br>Espaços Verdes';
-$lang['smartcities_table_tr3_1'] = 'Gerenciamento de <br>coleta de lixo';
-$lang['smartcities_table_tr4_1'] = 'City Fleet <br>Management';
 $lang['smartcities_table_tr1_3_1'] = 'Iluminação pública';
 $lang['smartcities_table_tr1_3_2'] = 'Edifícios públicos';
 $lang['smartcities_table_tr1_3_3'] = 'Escolas';

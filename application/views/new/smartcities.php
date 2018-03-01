@@ -61,17 +61,70 @@
         <br>
         <br>
 <!--- ######################### init ##################### -->
-        <div id="section-features" class="heading-block title-center page-section">
-            <h2><?php echo $this->lang->line('smartcities_section_features_h2'); ?></h2>
-            <span><?php echo $this->lang->line('smartcities_section_features_span1'); ?><br><br><?php echo $this->lang->line('smartcities_section_features_span2'); ?></span>
-        </div>	
+        <div class="container clearfix nobottommargin">
+			<div class="row clearfix nobottommargin">
+				
+				<div class="heading-block title-center">
+					<h1><?php echo $this->lang->line('smartcities_heading_block3_h1'); ?></h1>
+				</div>
+				
+				<div class="col-lg-6">
+					<div class="entry-image">
+						<div class="fslider" data-arrows="false" data-lightbox="gallery">
+							<div class="flexslider">
+								<div class="slider-wrap">
+									<div class="slide">
+										<img src="<?php echo assets_url(); ?>images/smartcities/<?php echo $this->lang->line('smartcities_heading_block3_img1'); ?>" >
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-6">
+					<div class="feature-box fbox-small fbox-plain fbox-light">
+						<div class="fbox-icon">
+							<i class="icon-book3"></i>
+						</div>
+						<h3 class="lead"><?php echo $this->lang->line('smartcities_heading_block3_title1'); ?></h3>
+					</div>
+					<p class="lead">
+					<?php echo $this->lang->line('smartcities_heading_block3_p1'); ?>
+					</p>
+					<ul class="lead">
+						<li><?php echo $this->lang->line('smartcities_heading_block3_li1'); ?></li>
+						<li><?php echo $this->lang->line('smartcities_heading_block3_li2'); ?></li>
+						<li><?php echo $this->lang->line('smartcities_heading_block3_li3'); ?></li>
+						<li><?php echo $this->lang->line('smartcities_heading_block3_li4'); ?></li>
+						<li><?php echo $this->lang->line('smartcities_heading_block3_li5'); ?></li>
+						<li><?php echo $this->lang->line('smartcities_heading_block3_li6'); ?></li>
+					</ul>
+					<p class="lead">
+					<?php echo $this->lang->line('smartcities_heading_block3_p2'); ?>
+					</p>
+				</div>
+				
+				<div class="col-lg-12">
+					<p class="lead">
+					<?php echo $this->lang->line('smartcities_heading_block3_p3'); ?>
+					</p>
+					<p class="lead">
+					<?php echo $this->lang->line('smartcities_heading_block3_p4'); ?>
+					</p>
+				</div>
+				
+			</div>
+        </div>
+        
+        <div class="line"></div>
 <!--- ######################### end ##################### -->
 
 <!--- ######################### init ##################### -->
         <div class="container clearfix">
             <div id="section-features" class="heading-block title-center page-section">
-                <h2><?php echo $this->lang->line('smartcities_section_features_h2'); ?></h2>
-                <span><?php echo $this->lang->line('smartcities_section_features_span'); ?></span>
+                <h2><?php echo $this->lang->line('smartcities_section_features_h3'); ?></h2>
+                <span class="justify"><?php echo $this->lang->line('smartcities_section_features_span'); ?></span>
             </div>    
             <div id="none">
                 <div id="ptab1">
@@ -80,7 +133,6 @@
                             <table class="table table-bordered nobottommargin">
                                 <thead>
                                     <tr>
-                                        <th><?php echo $this->lang->line('smartcities_table_th1'); ?></th>
                                         <th><?php echo $this->lang->line('smartcities_table_th2'); ?></th>
                                         <th><?php echo $this->lang->line('smartcities_table_th3'); ?></th>
                                         <th><?php echo $this->lang->line('smartcities_table_th4'); ?></th>
@@ -89,25 +141,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td rowspan="7">
-                                            <br><br>
-                                            <br><br>
-                                            <br>
-                                            <div class="row">
-                                                <div class="span4"></div>
-                                                <div class="span4">
-                                                    <img style="width: 55px;display: block;margin-left: auto;margin-right: auto;" src="<?php echo base_url(); ?>assets/images/modules/energy.png">
-                                                </div>
-                                                <div class="span4"></div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="span4"></div>
-                                                <div class="span4" class="text-center">
-                                                    <h5 class="text-center"><?php echo $this->lang->line('smartcities_table_tr1_1'); ?></h5>
-                                                </div>
-                                                <div class="span4"></div>
-                                            </div>
-                                        </td>
+                                        
                                         <td><br><img src="<?php echo base_url(); ?>assets/images/bee2-01.png"></td>
                                         <td>
                                             <br>
@@ -129,7 +163,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td rowspan="6"><br><img src="<?php echo base_url(); ?>assets/images/bee2-02.png"><br><br><img src="<?php echo base_url(); ?>assets/images/bee2-03.png"><br><br><img src="<?php echo base_url(); ?>assets/images/bee2-04.png"></td>
+                                        <td rowspan="6"><br><br><br><br><img src="<?php echo base_url(); ?>assets/images/bee2-02.png">
                                         <td>
                                             <table cellpadding="0" cellspacing="0" style="margin-bottom: 0px;">
                                                 <tr>
@@ -200,25 +234,8 @@
                                     <!-- ## green spaces management -->
 
                                     <tr>
-                                        <td rowspan="5">
-                                            <br><br>
-                                            <br>
-                                            <div class="row">
-                                                <div class="span4"></div>
-                                                <div class="span4">
-                                                    <img style="width: 55px;display: block;margin-left: auto;margin-right: auto;" src="<?php echo base_url(); ?>assets/images/modules/green_spaces.png">
-                                                </div>
-                                                <div class="span4"></div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="span4"></div>
-                                                <div class="span4" class="text-center">
-                                                    <h5 class="text-center"><?php echo $this->lang->line('smartcities_table_tr2_1'); ?></h5>
-                                                </div>
-                                                <div class="span4"></div>
-                                            </div>
-                                        </td>
-                                        <td rowspan="5"><br><img src="<?php echo base_url(); ?>assets/images/bee2-05.png"><br><br><img src="<?php echo base_url(); ?>assets/images/bee2-02.png"><br><br><img src="<?php echo base_url(); ?>assets/images/bee2-03.png"></td>
+                                        
+                                        <td rowspan="5"><br><br><br><img src="<?php echo base_url(); ?>assets/images/bee2-02.png"></td>
                                         <td>
                                             <table cellpadding="0" cellspacing="0" style="margin-bottom: 0px;">
                                                 <tr>
@@ -274,23 +291,7 @@
                                     <!-- ## waste collection management-->
                                     
                                     <tr>
-                                        <td rowspan="3">
-                                            <br>
-                                            <div class="row">
-                                                <div class="span4"></div>
-                                                <div class="span4">
-                                                    <img style="width: 55px;display: block;margin-left: auto;margin-right: auto;" src="<?php echo base_url(); ?>assets/images/modules/wastle.png">
-                                                </div>
-                                                <div class="span4"></div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="span4"></div>
-                                                <div class="span4" class="text-center">
-                                                    <h5 class="text-center"><?php echo $this->lang->line('smartcities_table_tr3_1'); ?></h5>
-                                                </div>
-                                                <div class="span4"></div>
-                                            </div>
-                                        </td>
+                                        
                                         <td rowspan="3"><br><img src="<?php echo base_url(); ?>assets/images/bee2-08.png"></td>
                                         <td>
                                             <table cellpadding="0" cellspacing="0" style="margin-bottom: 0px;">
@@ -333,23 +334,7 @@
                                     <!-- ## City fleet management -->
 
                                     <tr>
-                                        <td rowspan="4">
-                                            <br>
-                                            <div class="row">
-                                                <div class="span4"></div>
-                                                <div class="span4">
-                                                    <img style="width: 55px;display: block;margin-left: auto;margin-right: auto;" src="<?php echo base_url(); ?>assets/images/modules/fleet.png">
-                                                </div>
-                                                <div class="span4"></div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="span4"></div>
-                                                <div class="span4" class="text-center">
-                                                    <h5 class="text-center"><?php echo $this->lang->line('smartcities_table_tr4_1'); ?></h5>
-                                                </div>
-                                                <div class="span4"></div>
-                                            </div>
-                                        </td>
+                                        
                                         <td rowspan="4"><br><img src="<?php echo base_url(); ?>assets/images/bee2-09.png"></td>
                                         <td>
                                             <table cellpadding="0" cellspacing="0" style="margin-bottom: 0px;">
@@ -422,7 +407,7 @@
                 <div>
                     <div class="heading-block nobottomborder">
                         <span class="before-heading color"><?php echo $this->lang->line('smartcities_heading_block_span'); ?></span>
-                        <h3><?php echo $this->lang->line('smartcities_heading_block_h3'); ?></h3>
+                        <h3><?php echo $this->lang->line('smartcities_heading_block_h4'); ?></h3>
                     </div>
                     <div class="center bottommargin">
                         <a href="https://www.youtube.com/watch?v=ci5tmDrJyKw" data-lightbox="iframe" style="position: relative;">
