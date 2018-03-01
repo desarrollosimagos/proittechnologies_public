@@ -34,10 +34,20 @@
 	section {
 		background-color:#FFFFFF !important;
 	}
+	
+	#page-title {
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 </style>
 
 <!-- Page Title ============================================= -->
-<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/about/shutterstock_151376048.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3" data-img-width="703">
+<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_page_title1_img1'); ?>'); padding: 120px 0;" data-stellar-background-ratio="0.3" data-img-width="703">
 	<div class="container clearfix">
 		<h1><img src="<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_page_title1_img2'); ?>"></h1>
 		<span><?php echo $this->lang->line('bee2citizen_page_title1_span1'); ?></span>
@@ -93,17 +103,29 @@
 				</div>
 				
 				<div class="col-lg-12">
-					<div class="entry-image">
-						<div class="fslider" data-arrows="false" data-lightbox="gallery">
-							<div class="flexslider">
-								<div class="slider-wrap">
-									<div class="slide">
-										<img src="<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_heading_block1_img1'); ?>" >
+					
+					<div class="col-md-2">
+					
+					</div>
+					
+					<div class="col-md-8">
+						<div class="entry-image">
+							<div class="fslider" data-arrows="false" data-lightbox="gallery">
+								<div class="flexslider">
+									<div class="slider-wrap">
+										<div class="slide">
+											<img src="<?php echo assets_url(); ?>images/bee2citizen/<?php echo $this->lang->line('bee2citizen_heading_block1_img1'); ?>">
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+					
+					<div class="col-md-2">
+					
+					</div>
+					
 				</div>
 				
 				<div class="col-lg-12">
@@ -121,7 +143,7 @@
 			<div class="row clearfix nobottommargin">
 				
 				<div class="col-lg-12">
-					<div class="col-md-6">
+					<div class="col-md-4 col-md-offset-1 center">
 						<div class="heading-block title-center">
 							<h1><?php echo $this->lang->line('bee2citizen_heading_block2_h1_1'); ?></h1>
 						</div>
@@ -140,7 +162,7 @@
 						<?php echo $this->lang->line('bee2citizen_heading_block2_p1'); ?>
 						</p>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-4 col-md-offset-1 center">
 						<div class="heading-block title-center">
 							<h1><?php echo $this->lang->line('bee2citizen_heading_block2_h1_2'); ?></h1>
 						</div>
@@ -162,7 +184,7 @@
 				</div>
 				
 				<div class="col-lg-12">
-					<div class="col-md-6">
+					<div class="col-md-4 col-md-offset-1 center">
 						<div class="heading-block title-center">
 							<h1><?php echo $this->lang->line('bee2citizen_heading_block2_h1_3'); ?></h1>
 						</div>
@@ -181,7 +203,7 @@
 						<?php echo $this->lang->line('bee2citizen_heading_block2_p3'); ?>
 						</p>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-4 col-md-offset-1 center">
 						<div class="heading-block title-center">
 							<h1><?php echo $this->lang->line('bee2citizen_heading_block2_h1_4'); ?></h1>
 						</div>
