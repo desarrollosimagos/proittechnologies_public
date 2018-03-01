@@ -263,7 +263,7 @@
 						
 						<div class="feature-box fbox-small fbox-plain fbox-light">
 							<div class="fbox-icon">
-								<a href="#"><i class="icon-book3"></i></a>
+								<i class="icon-book3"></i>
 							</div>
 							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title1'); ?></h3>
 						</div>
@@ -274,7 +274,7 @@
 						
 						<div class="feature-box fbox-small fbox-plain fbox-light">
 							<div class="fbox-icon">
-								<a href="#"><i class="icon-book3"></i></a>
+								<i class="icon-book3"></i>
 							</div>
 							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title2'); ?></h3>
 						</div>
@@ -285,7 +285,7 @@
 						
 						<div class="feature-box fbox-small fbox-plain fbox-light">
 							<div class="fbox-icon">
-								<a href="#"><i class="icon-book3"></i></a>
+								<i class="icon-book3"></i>
 							</div>
 							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title3'); ?></h3>
 						</div>
@@ -296,7 +296,7 @@
 						
 						<div class="feature-box fbox-small fbox-plain fbox-light">
 							<div class="fbox-icon">
-								<a href="#"><i class="icon-book3"></i></a>
+								<i class="icon-book3"></i>
 							</div>
 							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title4'); ?></h3>
 						</div>
@@ -311,7 +311,7 @@
 						
 						<div class="feature-box fbox-small fbox-plain fbox-light">
 							<div class="fbox-icon">
-								<a href="#"><i class="icon-book3"></i></a>
+								<i class="icon-book3"></i>
 							</div>
 							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title5'); ?></h3>
 						</div>
@@ -322,7 +322,7 @@
 						
 						<div class="feature-box fbox-small fbox-plain fbox-light">
 							<div class="fbox-icon">
-								<a href="#"><i class="icon-book3"></i></a>
+								<i class="icon-book3"></i>
 							</div>
 							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title6'); ?></h3>
 						</div>
@@ -333,7 +333,7 @@
 						
 						<div class="feature-box fbox-small fbox-plain fbox-light">
 							<div class="fbox-icon">
-								<a href="#"><i class="icon-book3"></i></a>
+								<i class="icon-book3"></i>
 							</div>
 							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title7'); ?></h3>
 						</div>
@@ -344,7 +344,7 @@
 						
 						<div class="feature-box fbox-small fbox-plain fbox-light">
 							<div class="fbox-icon">
-								<a href="#"><i class="icon-book3"></i></a>
+								<i class="icon-book3"></i>
 							</div>
 							<h3 class="lead"><?php echo $this->lang->line('bee2citizen_heading_block3_title8'); ?></h3>
 						</div>
