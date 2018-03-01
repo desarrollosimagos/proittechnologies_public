@@ -35,7 +35,7 @@
 		background-color:#FFFFFF !important;
 	}
 	
-	#page-title {
+	/*#page-title {
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-attachment: fixed;
@@ -43,11 +43,11 @@
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-	}
+	}*/
 </style>
 
 <!-- Page Title ============================================= -->
-<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/bee2green/<?php echo $this->lang->line('bee2green_page_title1_img1'); ?>'); padding: 120px 0;" data-stellar-background-ratio="0.3">
+<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/about/iStock-528725265.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
 	<div class="container clearfix">
 		<h1><img src="<?php echo assets_url(); ?>images/bee2green/<?php echo $this->lang->line('bee2green_page_title1_img2'); ?>"></h1>
 		<span><?php echo $this->lang->line('bee2green_page_title1_span'); ?></span>
