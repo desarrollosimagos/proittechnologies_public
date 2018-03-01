@@ -34,10 +34,20 @@
 	section {
 		background-color:#FFFFFF !important;
 	}
+	
+	#page-title {
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 </style>
 
 <!-- Page Title ============================================= -->
-<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/about/shutterstock_151376048.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
+<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/bee2green/<?php echo $this->lang->line('bee2green_page_title1_img1'); ?>'); padding: 120px 0;" data-stellar-background-ratio="0.3">
 	<div class="container clearfix">
 		<h1><img src="<?php echo assets_url(); ?>images/bee2green/<?php echo $this->lang->line('bee2green_page_title1_img2'); ?>"></h1>
 		<span><?php echo $this->lang->line('bee2green_page_title1_span'); ?></span>
@@ -153,7 +163,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2green_heading_block3_title1'); ?></h3>
 					</div>
@@ -183,7 +193,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2green_heading_block4_title1'); ?></h3>
 					</div>
@@ -244,7 +254,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2green_heading_block5_title1'); ?></h3>
 					</div>
@@ -275,7 +285,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2green_heading_block6_title1'); ?></h3>
 					</div>
@@ -331,7 +341,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2green_heading_block7_title1'); ?></h3>
 					</div>
@@ -362,7 +372,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2green_heading_block8_title1'); ?></h3>
 					</div>
@@ -410,7 +420,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2green_heading_block9_title1'); ?></h3>
 					</div>
@@ -436,7 +446,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2green_heading_block9_title2'); ?></h3>
 					</div>
@@ -474,7 +484,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2green_heading_block10_title1'); ?></h3>
 					</div>
@@ -542,7 +552,7 @@
 				<div class="col-lg-6">
 					<div class="feature-box fbox-small fbox-plain fbox-light">
 						<div class="fbox-icon">
-							<a href="#"><i class="icon-book3"></i></a>
+							<i class="icon-book3"></i>
 						</div>
 						<h3 class="lead"><?php echo $this->lang->line('bee2green_heading_block11_title1'); ?></h3>
 					</div>
