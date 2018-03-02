@@ -193,7 +193,7 @@ ga('create', 'UA-104465777-1', 'auto');
 									<li><a href="<?php echo base_url(); ?>solutions/energyconsumption"><div><?php echo $this->lang->line('link_energia'); ?></div></a></li>
 									<li><a href="<?php echo base_url(); ?>solutions/greenspaces"><div><?php echo $this->lang->line('link_greenspaces'); ?></div></a></li>
 									<li><a href="<?php echo base_url(); ?>solutions/agriculture"><div><?php echo $this->lang->line('link_agriculture'); ?></div></a></li>
-									<li><a href="#"><div><?php echo $this->lang->line('link_logistica'); ?></div></a></li>
+									<li><a href="<?php echo base_url(); ?>solutions/cargologistic"><div><?php echo $this->lang->line('link_logistica'); ?></div></a></li>
 								</ul>
 							</li>
 							
