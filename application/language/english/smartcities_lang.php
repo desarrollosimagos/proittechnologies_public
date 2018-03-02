@@ -50,10 +50,10 @@ $lang['smartcities_table_tr2_3_5'] = 'Air Quality Control';
 $lang['smartcities_table_tr3_3_1'] = 'Waste Containers Operation';
 $lang['smartcities_table_tr3_3_2'] = 'Waste Containers Operation';
 $lang['smartcities_table_tr3_3_3'] = 'Selective and Undifferentiated';
-$lang['smartcities_table_tr4_3_1'] = 'City Vehicles Fleet';
-$lang['smartcities_table_tr4_3_2'] = 'Fuel Management';
-$lang['smartcities_table_tr4_3_3'] = 'Drivers Scheduling';
-$lang['smartcities_table_tr4_3_4'] = 'Repair and Maintenance';
+$lang['smartcities_table_tr4_3_1'] = 'Citizen/City Communication';
+$lang['smartcities_table_tr4_3_2'] = 'Social Inclusion';
+//~ $lang['smartcities_table_tr4_3_3'] = 'Drivers Scheduling';
+//~ $lang['smartcities_table_tr4_3_4'] = 'Repair and Maintenance';
 
 // Sección 6
 $lang['smartcities_heading_block_span'] = 'COMPTA SMARTCITIES';

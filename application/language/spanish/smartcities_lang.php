@@ -52,8 +52,8 @@ $lang['smartcities_table_tr3_3_2'] = 'Operación de Contenedores de Residuos';
 $lang['smartcities_table_tr3_3_3'] = 'Selectivo e indiferenciado';
 $lang['smartcities_table_tr4_3_1'] = 'Flota de la ciudad';
 $lang['smartcities_table_tr4_3_2'] = 'Gestión del combustible';
-$lang['smartcities_table_tr4_3_3'] = 'Programación de controladores';
-$lang['smartcities_table_tr4_3_4'] = 'Reparación y mantenimiento';
+//~ $lang['smartcities_table_tr4_3_3'] = 'Programación de controladores';
+//~ $lang['smartcities_table_tr4_3_4'] = 'Reparación y mantenimiento';
 
 // Sección 6
 $lang['smartcities_heading_block_span'] = 'COMPACTOS INTELIGENTES';

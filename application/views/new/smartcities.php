@@ -335,7 +335,7 @@
 
                                     <tr>
                                         
-                                        <td rowspan="4"><br><img src="<?php echo base_url(); ?>assets/images/bee2-09.png"></td>
+                                        <td rowspan="2"><br><img src="<?php echo base_url(); ?>assets/images/bee2-09.png"></td>
                                         <td>
                                             <table cellpadding="0" cellspacing="0" style="margin-bottom: 0px;">
                                                 <tr>
@@ -344,8 +344,8 @@
                                                 </tr>
                                             </table>
                                         </td>
-                                        <td rowspan="4"><img src="<?php echo base_url(); ?>assets/images/up-41.png"></td>
-                                        <td rowspan="4"><img src="<?php echo base_url(); ?>assets/images/up-42.png"></td>
+                                        <td rowspan="2"><img src="<?php echo base_url(); ?>assets/images/up-41.png"></td>
+                                        <td rowspan="2"><img src="<?php echo base_url(); ?>assets/images/up-42.png"></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -357,7 +357,7 @@
                                             </table>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <!--<tr>
                                         <td>
                                             <table cellpadding="0" cellspacing="0" style="margin-bottom: 0px;">
                                                 <tr>
@@ -376,7 +376,7 @@
                                                 </tr>
                                             </table>
                                         </td>
-                                    </tr>
+                                    </tr>-->
                                 </tbody>
                             </table>
                         </div>
