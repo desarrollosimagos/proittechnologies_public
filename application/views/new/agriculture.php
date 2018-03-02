@@ -160,7 +160,7 @@
 											<p><?php echo $this->lang->line('agriculture_table_tr1_2'); ?></p>
 										</div>
 									</td>
-									<td>
+									<!--<td>
 										<div class="text-center">
 											<img src="<?php echo assets_url(); ?>images/agriculture_smart_irrigation_fertifation2.png">
 										</div>
@@ -168,7 +168,7 @@
 											<img src="<?php echo assets_url(); ?>images/bee2-05.png">
 											<p><?php echo $this->lang->line('agriculture_table_tr1_3'); ?></p>
 										</div>
-									</td>
+									</td>-->
 									<td>
 										<div class="text-center">
 											<img src="<?php echo assets_url(); ?>images/agriculture_smart_irrigation_fertifation3.png">
@@ -203,7 +203,7 @@
 											<li><?php echo $this->lang->line('agriculture_table_tr2_2_li_7'); ?></li>
 										</ul>
 									</td>
-									<td>
+									<!--<td>
 										<ul>
 											<li><?php echo $this->lang->line('agriculture_table_tr2_3_li_1'); ?></li>
 											<li><?php echo $this->lang->line('agriculture_table_tr2_3_li_2'); ?></li>
@@ -211,7 +211,7 @@
 											<li><?php echo $this->lang->line('agriculture_table_tr2_3_li_4'); ?></li>
 											<li><?php echo $this->lang->line('agriculture_table_tr2_3_li_5'); ?></li>
 										</ul>
-									</td>
+									</td>-->
 									<td>
 										<ul>
 											<li><?php echo $this->lang->line('agriculture_table_tr2_4_li_1'); ?></li>
@@ -241,14 +241,14 @@
 											<li><?php echo $this->lang->line('agriculture_table_tr3_2_li_4'); ?></li>
 										</ul>
 									</td>
-									<td>
+									<!--<td>
 										<ul>
 											<li><?php echo $this->lang->line('agriculture_table_tr3_3_li_1'); ?></li>
 											<li><?php echo $this->lang->line('agriculture_table_tr3_3_li_2'); ?></li>
 											<li><?php echo $this->lang->line('agriculture_table_tr3_3_li_3'); ?></li>
 											<li><?php echo $this->lang->line('agriculture_table_tr3_3_li_4'); ?></li>
 										</ul>
-									</td>
+									</td>-->
 									<td>
 										<ul>
 											<li><?php echo $this->lang->line('agriculture_table_tr3_4_li_1'); ?></li>
@@ -283,7 +283,7 @@
 											<li><?php echo $this->lang->line('agriculture_table_tr4_2_li_10'); ?></li>
 										</ul>
 									</td>
-									<td>
+									<!--<td>
 										<ul>
 											<li><?php echo $this->lang->line('agriculture_table_tr4_3_li_1'); ?></li>
 											<li><?php echo $this->lang->line('agriculture_table_tr4_3_li_2'); ?></li>
@@ -294,7 +294,7 @@
 											<li><?php echo $this->lang->line('agriculture_table_tr4_3_li_7'); ?></li>
 											<li><?php echo $this->lang->line('agriculture_table_tr4_3_li_8'); ?></li>
 										</ul>
-									</td>
+									</td>-->
 									<td>
 										<ul>
 											<li><?php echo $this->lang->line('agriculture_table_tr4_4_li_1'); ?></li>
@@ -328,7 +328,7 @@
 											<li><?php echo $this->lang->line('agriculture_table_tr5_2_li_7'); ?></li>
 										</ul>
 									</td>
-									<td>
+									<!--<td>
 										<ul>
 											<li><?php echo $this->lang->line('agriculture_table_tr5_3_li_1'); ?></li>
 											<li><?php echo $this->lang->line('agriculture_table_tr5_3_li_2'); ?></li>
@@ -337,7 +337,7 @@
 											<li><?php echo $this->lang->line('agriculture_table_tr5_3_li_5'); ?></li>
 											<li><?php echo $this->lang->line('agriculture_table_tr5_3_li_6'); ?></li>
 										</ul>
-									</td>
+									</td>-->
 									<td>
 										<ul>
 											<li><?php echo $this->lang->line('agriculture_table_tr5_4_li_1'); ?></li>
@@ -366,12 +366,12 @@
 											<li><?php echo $this->lang->line('agriculture_table_tr6_2_li_2'); ?></li>
 										</ul>
 									</td>
-									<td>
+									<!--<td>
 										<ul>
 											<li><?php echo $this->lang->line('agriculture_table_tr6_3_li_1'); ?></li>
 											<li><?php echo $this->lang->line('agriculture_table_tr6_3_li_2'); ?></li>
 										</ul>
-									</td>
+									</td>-->
 									<td>
 										<ul>
 											<li><?php echo $this->lang->line('agriculture_table_tr6_4_li_1'); ?></li>
