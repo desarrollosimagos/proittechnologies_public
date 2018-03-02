@@ -68,6 +68,7 @@ $route['solutions/smartcities'] = 'welcome/smartcities';
 $route['solutions/energyconsumption'] = 'welcome/energyconsumption';
 $route['solutions/greenspaces'] = 'welcome/greenspaces';
 $route['solutions/agriculture'] = 'welcome/agriculture';
+$route['solutions/cargologistic'] = 'welcome/cargologistic';
 
 /* Páginas de productos */
 $route['products/bee2energy'] = 'welcome/bee2energy';

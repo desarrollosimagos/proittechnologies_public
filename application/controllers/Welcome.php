@@ -105,6 +105,13 @@ class Welcome extends CI_Controller {
 		$this->load->view('base', $data);
 	}
 	
+	public function cargologistic()
+	{
+		$data['pagina'] = 'new/cargologistic.php';
+		$data['section'] = 'solutions';
+		$this->load->view('base', $data);
+	}
+	
 	// Métodos de ruta a páginas de soluciones
 	public function products()
 	{
