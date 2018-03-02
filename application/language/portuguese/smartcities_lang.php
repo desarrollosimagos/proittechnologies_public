@@ -52,8 +52,8 @@ $lang['smartcities_table_tr3_3_2'] = 'Operação de Recipientes de Resíduos';
 $lang['smartcities_table_tr3_3_3'] = 'Seletivo e indiferenciado';
 $lang['smartcities_table_tr4_3_1'] = 'Frota de Veículos da Cidade';
 $lang['smartcities_table_tr4_3_2'] = 'Gerenciamento de Combustível';
-$lang['smartcities_table_tr4_3_3'] = 'Programação de drivers';
-$lang['smartcities_table_tr4_3_4'] = 'Reparo e manutenção';
+//~ $lang['smartcities_table_tr4_3_3'] = 'Programação de drivers';
+//~ $lang['smartcities_table_tr4_3_4'] = 'Reparo e manutenção';
 
 // Sección 6
 $lang['smartcities_heading_block_span'] = 'SMARTCITIES COMPTA';
