@@ -95,21 +95,21 @@
 						<table class="table" id="table_energys2">
 							<tbody>
 								<tr>
-									<td>
+									<!--<td>
 										<div class="text-center">
 											<img src="<?php echo base_url(); ?>assets/images/bee2-irrigation-bw.png">
 										</div>
-									</td>
+									</td>-->
 									<td>
 										<div class="text-center">
 											<img src="<?php echo base_url(); ?>assets/images/bee2-51.png">
 										</div>
 									</td>
-									<td>
+									<!--<td>
 										<div class="text-center">
 											<img src="<?php echo base_url(); ?>assets/images/bee2-water-bw.png">
 										</div>
-									</td>
+									</td>-->
 									<td>
 										<div class="text-center">
 											<img src="<?php echo base_url(); ?>assets/images/bee2-lighting-bw.png">
