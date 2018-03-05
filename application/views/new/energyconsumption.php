@@ -159,7 +159,7 @@
 											<img src="<?php echo base_url(); ?>assets/images/bee2-lighting-bw.png">
 										</div>
 									</td>
-									<td>
+									<!--<td>
 										<div class="text-center">
 											<img src="<?php echo base_url(); ?>assets/images/bee2-gas-bw.png">
 										</div>
@@ -173,7 +173,7 @@
 										<div class="text-center">
 											<img src="<?php echo base_url(); ?>assets/images/bee2-oxygen-bw.png">
 										</div>
-									</td>
+									</td>-->
 								</tr>
 							</tbody>
 						</table>
